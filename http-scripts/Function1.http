@@ -1,0 +1,14 @@
+# Function1
+
+## No query string provided, returns 400 Bad Request
+GET http://localhost:7071/api/Function1
+
+### Query string provided
+GET http://localhost:7071/api/Function1?name=chris
+
+### Form body provided, returns 
+POST http://localhost:7071/api/Function1
+
+{
+  "name":"dave"
+}
