@@ -12,3 +12,25 @@ POST http://localhost:7071/api/Function1
 {
   "name":"dave"
 }
+
+### Form body provided, returns 
+POST http://localhost:7071/api/Function2
+
+{
+  "name":"bob"
+}
+
+### Form body provided, returns 
+POST http://localhost:7071/api/Function3
+
+{
+  "name":"dave"
+}
+
+### Ticket
+POST http://localhost:7071/api/AddTicket 
+content-type: application/json
+
+{
+  "Username": "chris"
+}
